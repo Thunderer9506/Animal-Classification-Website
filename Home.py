@@ -2,8 +2,6 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 from ultralytics import YOLO
-# Add your model import here
-# from model import your_prediction_model
 
 def load_image(image_file):
     img = Image.open(image_file)
@@ -45,9 +43,9 @@ def main():
             # Add prediction button
             if st.button('Classify Animal'):
                 try:
-                    # Add your model prediction code here
+                    
                     animalName = prediction(image)
-                    # For now, using placeholder
+
                     st.success(f"Predicted Animal: {animalName}")
                 except Exception as e:
                     st.error("An error occurred during classification. Please try again.")
