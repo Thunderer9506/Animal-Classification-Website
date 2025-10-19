@@ -6,7 +6,7 @@ A simple yet powerful web application built with Streamlit to classify animal im
 
 ### ✨ Live Demo
 
-> **[Link to your deployed Streamlit App]** *(Replace this with the actual link once you deploy it)*
+> [**Animal Classification Website**](https://thunderer9506-animal-classification-website-home-ao1kf2.streamlit.app/)
 
 ***
 
